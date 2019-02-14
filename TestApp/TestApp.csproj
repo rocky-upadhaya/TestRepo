@@ -36,6 +36,12 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <IncludeIisSettings>false</IncludeIisSettings>
+    <DeployEncryptKey>
+    </DeployEncryptKey>
+    <PublishDatabases>true</PublishDatabases>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -183,6 +189,7 @@
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Publish.pubxml" />
+    <None Include="Properties\PublishProfiles\Release.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
